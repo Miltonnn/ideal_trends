@@ -1,3 +1,7 @@
+    /* Slider */
+    
+    $('.slider').nivoSlider();    
+    
     /* Quando o usuário carregar a página ela irá para o topo */
 
     window.addEventListener('load', function () {
