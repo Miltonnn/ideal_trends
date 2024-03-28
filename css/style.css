@@ -105,7 +105,8 @@ nav {
   width: 50%;
 }
 
-/* Slider */
+/* SLIDER */
+/* 
 .area {
   width: 70%; 
   margin: 0 auto; 
@@ -128,8 +129,9 @@ nav {
 .slider img{
   animation: none !important;
   transition: none !important;
-}
-
+} 
+ */
+ 
 .header-container {
   position: relative;
   padding-top: 2rem;
@@ -233,6 +235,8 @@ nav {
   border-color: #EF2138;
 }
 
+/* CARD COM AS IMAGENS */
+
 .explore-grid {
   margin-top: 4rem;
   display: grid;
@@ -265,6 +269,11 @@ nav {
   border-radius: 5px;
 }
 
+.explore-card p {
+  margin-bottom: 1rem;
+  color: #b4b4b4;
+}
+
 .explore-card h4 {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
@@ -272,10 +281,6 @@ nav {
   color: #fff;
 }
 
-.explore-card p {
-  margin-bottom: 1rem;
-  color: #b4b4b4;
-}
 
 .explore-card a {
   color: #fff;
