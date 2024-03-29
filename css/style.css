@@ -33,6 +33,9 @@ img {
   display: flex;
 }
 
+.slider{
+ height: 500px;
+}
 
 
 body {
@@ -82,7 +85,7 @@ nav {
 .link a:hover::after {
   width: 50%;
 }
- 
+
 /* HEADER */
 .header-container {
   position: relative;
@@ -258,26 +261,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-}
-
-.class-image {
-  position: relative;
-}
-
-.class-image .class-img-1 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 500px;
-  border-radius: 10px;
-}
-
-.class-image .class-img-2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  max-width: 300px;
-  border-radius: 10px;
 }
 
 .class-content {
