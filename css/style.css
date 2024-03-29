@@ -19,8 +19,8 @@
   text-align: center;
   color: #fff;
 }
+
  /* FORMULARIO */
- 
  .container-form{
   display: flex;
   justify-content: right;
@@ -33,6 +33,7 @@
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-weight: bold;
+  font-size: 1.5rem;
  }
 
 
@@ -59,6 +60,7 @@
 
  .form-box input,
  .form-box textarea{
+  font-family: "Poppins", sans-serif;
   width: calc(50% - 8px);
   height: 48px;
   border-radius: 8px;
@@ -81,24 +83,7 @@
   height: 180px;
   padding: 16px;
  }
-
- .form-box button{
-  display: block;
-  border: none;
-  outline: none;
-  width: 180px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: #EF2138;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
- }
-
- .form-box button:hover{
-  background-color: #fa354c;
- }
+ 
  /* ACABA AQUI */
 
 .section-subheader {

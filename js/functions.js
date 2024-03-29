@@ -30,6 +30,11 @@
             scrollToSection('planos');
         });
 
+        planosLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('sobre');
+        });
+
         
         contatoLink.addEventListener('click', function (event) {
             event.preventDefault();
