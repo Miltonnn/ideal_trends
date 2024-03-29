@@ -17,6 +17,7 @@
         const aulasLink = document.querySelector('.nav-links a[href="#aulas"]');
         const planosLink = document.querySelector('.nav-links a[href="#planos"]');
         const contatoLink = document.querySelector('.nav-links a[href="#contato"]');
+        
 
       
         aulasLink.addEventListener('click', function (event) {
