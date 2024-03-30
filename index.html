@@ -11,40 +11,64 @@
     <title>Academia</title>
 </head>
 <body>
-    <!-- NAV -->
-    <nav>
-        <div class="nav-logo">
+  <header>
+    <nav class="nav-bar">
+          <div class="nav-logo">
             <a href="#"><img src="img/loogo.png" alt="logo"></a>
         </div>
-        <ul class="nav-links">
-            <li class="link"><a href="#">HOME</a></li>
-            <li class="link"><a href="#aulas">AULAS</a></li>
-            <li class="link"><a href="#planos">PLANOS</a></li>
-            <li class="link"><a href="#sobre">SOBRE</a></li>
-            <li class="link"><a href="#contato">CONTATO</a>
-              <ul id="submenu">
-                <li><a href="#">Submenu</a></li>
-                <li><a href="#">Submenu</a></li>
-                <li><a href="#">Submenu</a></li>
-              </ul>
-            </li>
-        </ul>
-        <button class="btn">Entrar</button>
-    </nav><br>
+        <div class="nav-links">
+            <ul>
+                <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="#aulas" class="nav-link">AULAS</a></li>
+                <li class="nav-item"><a href="#planos" class="nav-link">PLANOS</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">SOBRE</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">CONTATO</a>
+                  <ul id="submenu">
+                    <li><a href="#">Submenu</a></li>
+                    <li><a href="#">Submenu</a></li>
+                    <li><a href="#">Submenu</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
 
-    <!-- Slider -->
-    
-    <div class="section-container theme-default">
-        <div class="slider">
-            <img src="img/slid03.png" alt="">
-            <img src="img/slid01.png" alt="">
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">AULAS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">PLANOS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
         </div>
     </div>
-    <!--  -->
+</header>
 
-    <!-- HEADER -->
-    <header class="section-container header-container">
-        <div class="header-content">
+
+
+<!-- Slider -->
+
+<div class="section-container theme-default">
+  <div class="slider">
+    <img src="img/slid03.png" alt="">
+    <img src="img/slid01.png" alt="">
+  </div>
+</div>
+<!--  -->
+
+<!-- HEADER -->
+<header class="section-container header-container">
+  <div class="header-content">
           <h4>MELHOR FITNESS DA CIDADE</h4>
           <h1><span>DEIXE</span> A FORMA DO SEU CORPO</h1>
           <p>
@@ -58,39 +82,39 @@
         </div>
       </header>
 
-    <!-- SECTION 01 -->
-    <section class="section-container explore-container">
+      <!-- SECTION 01 -->
+      <section class="section-container explore-container">
         <div class="explore-header">
-            <h2 class="section-header">EXPLORE NOSSOS PROGRAMAS</h2>
+          <h2 class="section-header">EXPLORE NOSSOS PROGRAMAS</h2>
         </div>
         <div class="explore-grid">
-            <div class="explore-card">
-              <span><i class="ri-boxing-fill"></i></span>
-              <h4>Força</h4>
-              <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint est cum expedita at dignissimos tempore quae blanditiis reprehenderit ducimus deserunt cumque sapiente, vel porro! Corrupti quae sapiente ea? Laborum.
-              </p>
-              <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore-card">
-              <span><i class="ri-heart-pulse-fill"></i></span>
-              <h4>Aptidão física</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis impedit dicta esse unde fuga. Esse cupiditate, temporibus ea consectetur provident laboriosam vel impedit fugiat a eum doloribus necessitatibus maiores tempora.
-              </p>
-              <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore-card">
-              <span><i class="ri-run-line"></i></span>
-              <h4>Perda de gordura</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nesciunt vel incidunt est ut commodi, quasi tempora. Nihil asperiores qui blanditiis expedita dicta illum, officiis consectetur, neque, porro officia accusantium.
-              </p>
-              <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="explore-card">
-              <span><i class="ri-shopping-basket-fill"></i></span>
-              <h4>Ganho de peso</h4>
+          <div class="explore-card">
+            <span><i class="ri-boxing-fill"></i></span>
+            <h4>Força</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sint est cum expedita at dignissimos tempore quae blanditiis reprehenderit ducimus deserunt cumque sapiente, vel porro! Corrupti quae sapiente ea? Laborum.
+            </p>
+            <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
+          </div>
+          <div class="explore-card">
+            <span><i class="ri-heart-pulse-fill"></i></span>
+            <h4>Aptidão física</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis impedit dicta esse unde fuga. Esse cupiditate, temporibus ea consectetur provident laboriosam vel impedit fugiat a eum doloribus necessitatibus maiores tempora.
+            </p>
+            <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
+          </div>
+          <div class="explore-card">
+            <span><i class="ri-run-line"></i></span>
+            <h4>Perda de gordura</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nesciunt vel incidunt est ut commodi, quasi tempora. Nihil asperiores qui blanditiis expedita dicta illum, officiis consectetur, neque, porro officia accusantium.
+            </p>
+            <a href="#">Entrar <i class="ri-arrow-right-line"></i></a>
+          </div>
+          <div class="explore-card">
+            <span><i class="ri-shopping-basket-fill"></i></span>
+            <h4>Ganho de peso</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum explicabo eveniet dicta. Sint earum, libero commodi odio veritatis officia, praesentium amet hic velit deleniti eum, nobis recusandae harum natus.
               </p>
@@ -100,7 +124,7 @@
         </section>
     
         <!-- SECTION 02 -->
-
+        
         <section class="section-container class-container">
             <div class="class-image">
               <img src="img/class-13.jpg" alt="class" class="class-img-1" />
@@ -114,10 +138,10 @@
               <button class="btn">Reserve uma aula</button>
             </div>
           </section>
-
-        <!-- SECTION 03, CARDS COM AS IMAGENS -->
-        
-        <section class="section-container explore-container" id="aulas">
+          
+          <!-- SECTION 03, CARDS COM AS IMAGENS -->
+          
+          <section class="section-container explore-container" id="aulas">
             <div class="explore-header">
               <h2 class="section-header">Nossas aulas</h2>
             </div>
@@ -146,7 +170,7 @@
           </section>
 
           <!-- SECTION 04, CARDS DE PREÇOS -->
-
+          
           <section class="section-container preco-container" id="planos">
             <h2 class="section-header">NOSSOS PLANOS</h2>
             <p class="section-subheader">
@@ -218,7 +242,7 @@
           </section>
 
           <!-- SECTION 05 FORMULÁRIO -->
-
+          
           <div class="section-container container-form" id="contato">
             <div class="form-box">
               <h2>Entre em contato com o suporte</h2><br>
@@ -264,9 +288,9 @@
               <a href="#">Calculadora de IMC</a>
             </div>
           </footer>
-
+          
           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
           <script src="js/jquery.nivo.slider.js"></script>
           <script src="js/functions.js"></script>
-</body>
+        </body>
 </html>

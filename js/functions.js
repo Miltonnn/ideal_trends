@@ -2,15 +2,6 @@
     
     $('.slider').nivoSlider();    
     
-    /* Quando o usuário carregar a página ela irá para o topo */
-
-    window.addEventListener('load', function () {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });    
-    
     /* ROLAMENTO DA PÁGINA QUANDO CLICAR NOS LINKS  */
 
     document.addEventListener('DOMContentLoaded', function () {
@@ -54,6 +45,8 @@
         }
     });
 
+    /* QUANDO O USUÁRIO ATUALIZAR A PÁGINA, ELA VOLTA PARA O INICIO DE MANEIRA SUAVE  */
+
     document.addEventListener('DOMContentLoaded', function () {
         window.scrollTo({
             top: 0,
@@ -72,3 +65,15 @@
         }
     });
 
+    /* FUNCTION ICONE MENU */
+
+    function menuShow() {
+        let menuMobile = document.querySelector('.mobile-menu');
+        if (menuMobile.classList.contains('open')) {
+            menuMobile.classList.remove('open');
+            document.querySelector('.icon').src = "img/menu_white_36dp.svg";
+        } else {
+            menuMobile.classList.add('open');
+            document.querySelector('.icon').src = "img/close_white_36dp.svg";
+        }
+    }
