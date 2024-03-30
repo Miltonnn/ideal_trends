@@ -9,6 +9,11 @@
         const planosLink = document.querySelector('.nav-links a[href="#planos"]');
         const contatoLink = document.querySelector('.nav-links a[href="#contato"]');
         const sobreLink = document.querySelector('.nav-links a[href="#sobre"]');
+
+        const mobileAulasLink = document.querySelector('.mobile-menu a[href="#aulas"]');
+        const mobilePlanosLink = document.querySelector('.mobile-menu a[href="#planos"]');
+        const mobileContatoLink = document.querySelector('.mobile-menu a[href="#contato"]');
+        const mobileSobreLink = document.querySelector('.mobile-menu a[href="#sobre"]');
         
 
       
@@ -29,6 +34,26 @@
         });
 
         sobreLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('sobre');
+        });
+
+        mobileAulasLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('aulas');
+        });
+    
+        mobilePlanosLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('planos');
+        });
+    
+        mobileContatoLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('contato');
+        });
+    
+        mobileSobreLink.addEventListener('click', function (event) {
             event.preventDefault();
             scrollToSection('sobre');
         });
