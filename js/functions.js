@@ -17,6 +17,7 @@
         const aulasLink = document.querySelector('.nav-links a[href="#aulas"]');
         const planosLink = document.querySelector('.nav-links a[href="#planos"]');
         const contatoLink = document.querySelector('.nav-links a[href="#contato"]');
+        const sobreLink = document.querySelector('.nav-links a[href="#sobre"]');
         
 
       
@@ -30,15 +31,15 @@
             scrollToSection('planos');
         });
 
-        planosLink.addEventListener('click', function (event) {
-            event.preventDefault();
-            scrollToSection('sobre');
-        });
-
         
         contatoLink.addEventListener('click', function (event) {
             event.preventDefault();
             scrollToSection('contato');
+        });
+
+        sobreLink.addEventListener('click', function (event) {
+            event.preventDefault();
+            scrollToSection('sobre');
         });
 
         function scrollToSection(sectionId) {
