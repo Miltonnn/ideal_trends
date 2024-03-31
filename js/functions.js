@@ -1,6 +1,7 @@
     /* Slider */
     
-    $('.slider').nivoSlider();    
+    var splide = new Splide( '.splide' );
+    splide.mount();  
     
     /* ROLAMENTO DA PÁGINA QUANDO CLICAR NOS LINKS  */
 

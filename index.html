@@ -7,9 +7,8 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" />
-    <link rel="stylesheet" href="css/nivo-slider.css" />
-    <link rel="stylesheet" href="css/style-slider.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Academia</title>
   </head>
@@ -71,13 +70,23 @@
     </header>
 
     <!-- Slider -->
-
-    <div class="section-container theme-default">
-      <div class="slider">
-        <img src="img/slid03.png" alt="" />
-        <img src="img/slid01.png" alt="" />
+    <div class="section-container splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide">
+            <div class="img_box">
+              <img src="/img/slid01.png" alt="">
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img_box">
+              <img src="/img/slid03.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+     
     <!--  -->
 
     <!-- HEADER -->
@@ -321,8 +330,6 @@
       </div>
     </footer>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.nivo.slider.js"></script>
     <script src="js/functions.js"></script>
   </body>
 </html>
